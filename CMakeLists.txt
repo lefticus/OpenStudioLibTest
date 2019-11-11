@@ -57,6 +57,9 @@ conan_cmake_run(REQUIRES
   boost_numeric_ublas/${BOOST_VERSION}@bincrafters/stable
   boost_functional/${BOOST_VERSION}@bincrafters/stable
   boost_geometry/${BOOST_VERSION}@bincrafters/stable
+  pugixml/1.9@bincrafters/stable
+  jsoncpp/1.8.4@theirix/stable
+  cpprestsdk/2.10.13@bincrafters/stable
   BASIC_SETUP CMAKE_TARGETS NO_OUTPUT_DIRS
   OPTIONS ${CONAN_OPTIONS}
   BUILD ${CONAN_BUILD}
